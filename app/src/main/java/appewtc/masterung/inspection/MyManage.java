@@ -21,4 +21,11 @@ public class MyManage {
 
     }   // Constructor
 
+    public long addCatAndItem(String strCategory,
+                              String strItem) {
+
+        return 0;
+    }
+
+
 }   // Main Class
