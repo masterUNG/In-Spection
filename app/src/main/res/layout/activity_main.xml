@@ -37,14 +37,16 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView"
                 android:layout_weight="1"
-                android:src="@drawable/build3" />
+                android:src="@drawable/build3"
+                android:onClick="clickToilet" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView2"
                 android:layout_weight="1"
-                android:src="@drawable/build10" />
+                android:src="@drawable/build10"
+                android:onClick="clickKitchen" />
         </LinearLayout>
 
         <LinearLayout

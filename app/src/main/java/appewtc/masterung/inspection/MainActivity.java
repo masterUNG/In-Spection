@@ -1,9 +1,11 @@
 package appewtc.masterung.inspection;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,8 +23,28 @@ public class MainActivity extends AppCompatActivity {
         //Add First Data
         addFirstData();
 
-
     }   // Main Method
+
+    public void clickKitchen(View view) {
+
+        int intIcon = R.drawable.build10;   //  รูปของห้องครัว
+        moveToShowListView(getResources().getString(R.string.kitchen), intIcon);
+
+    }   // clickKitchen
+
+    public void clickToilet(View view) {
+
+        int intIcon = R.drawable.build3; // รูปของห้องน้ำ
+        moveToShowListView(getResources().getString(R.string.toilet), intIcon);
+
+    }   // clickToilet
+
+    private void moveToShowListView(String strChoose, int intIcon) {
+        Intent intent = new Intent(MainActivity.this, InSpectionList.class);
+        intent.putExtra("Title", strChoose);
+        intent.putExtra("Icon", intIcon);
+        startActivity(intent);
+    }
 
     private void addFirstData() {
 
