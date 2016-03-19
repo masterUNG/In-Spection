@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">In Spection</string>
+
+    <string name="head">โปรดเลือกห้อง</string>
+    <string name="toilet">ห้องน้ำ</string>
+    <string name="kitchen">ห้องครัว</string>
+
 </resources>
