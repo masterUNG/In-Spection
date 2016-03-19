@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="kitchen">
+
+        <item>ครัว 1</item>
+        <item>ครัว 2</item>
+        <item>ครัว 3</item>
+        <item>ครัว 4</item>
+        <item>ครัว 5</item>
+        <item>ครัว 6</item>
+        <item>ครัว 7</item>
+        <item>ครัว 8</item>
+        <item>ครัว 9</item>
+        <item>ครัว 10</item>
+        <item>ครัว 11</item>
+        <item>ครัว 12</item>
+        <item>ครัว 13</item>
+        <item>ครัว 14</item>
+        <item>ครัว 15</item>
+        <item>ครัว 16</item>
+        <item>ครัว 17</item>
+
+
+    </string-array>
+
+</resources>
